@@ -1,0 +1,30 @@
+nav {
+    background-color: lightgreen;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 0.5% 2% 0.5% 0.5%;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: lightgoldenrodyellow;
+}
+@media(max-width:650px){
+    nav{
+        display:none;
+    }
+}

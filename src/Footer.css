@@ -1,0 +1,33 @@
+
+footer {
+    background-color: rgb(23, 55, 23);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    font-size: 80%;
+}
+
+footer div {
+    flex: 1;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer ul li {
+    padding: 0.5rem 0;
+}
+
+footer ul li a,
+footer ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: lightgoldenrodyellow;
+}

@@ -1,0 +1,35 @@
+.twoparts{
+    display:flex;
+    width:99%;
+    padding:0.5%;
+    margin:1% auto;
+    height:fit-content ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media(max-width:1400px){
+    .twoparts{
+        display:flex;
+        flex-direction: column;
+
+        
+    }
+    .twoparts div{
+        margin:0 auto;
+    }
+}
+@media(max-width:650px){
+    .twoparts{
+        /* margin-top:10%; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media(max-width:480px){
+    /* .twoparts{
+        
+    } */
+}
